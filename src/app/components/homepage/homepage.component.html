@@ -1,0 +1,58 @@
+
+<H1>Homepage</H1>
+<h3 style="border: 3px; color:blueviolet">Employee Details</h3>
+<table id="customers">
+  <tbody>
+    <tr>
+      <th>Employee ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>E-Mail</th>
+      <th>Job Role</th>
+      <th>Department No</th>
+    </tr>
+    <tr *ngFor="let arr of employees">
+      <td>{{arr.id}}</td>
+      <td>{{arr.name}}</td>
+      <td>{{arr.age}}</td>
+      <td>{{arr.email}}</td>
+      <td>{{arr.job}}</td>
+      <td>{{arr.deptno}}</td>
+                </tr>
+  </tbody>
+</table>
+<h3 style="border: 3px; color:blueviolet">New Employee Details</h3>
+<table id="customers">
+  <tbody>
+    <tr>
+      <th>Employee ID</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>E-Mail</th>
+      <th>Job Role</th>
+      <th>Department No</th>
+    </tr>
+    <tr *ngFor="let arr of userdetails">
+      <td>{{arr?.id}}</td>
+      <td>{{arr?.name}}</td>
+      <td>{{arr?.age}}</td>
+      <td>{{arr?.email}}</td>
+      <td>{{arr?.job}}</td>
+      <td>{{arr?.deptno}}</td>
+                </tr>
+  </tbody>
+</table>
+<p><p><p><p><p></p>
+<div>
+  <button (click)="logout()">
+    LOGOUT
+  </button>
+  </div>
+  <html>
+    <head>
+      <base href="https://www.w3schools.com/" target="_blank">
+    </head>
+    <body>
+
+    <img src="/assignment1/src/tiger.jpg" alt="Tiger">
+

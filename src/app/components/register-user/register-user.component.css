@@ -1,0 +1,32 @@
+.content{
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+h2{
+  color: white;
+  background: linear-gradient(200deg,white,black,purple);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+
+}
+.block{
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  background: linear-gradient(270deg, red,blue);
+  height: 400px;
+  display: flex;
+}
+.inp{
+  width: 85%;
+  padding: 10px 15px;
+  margin: 10px;
+}
+.btns{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,9 @@
+
+.container {
+  min-height:100%;
+}
+
+.footer {
+  height:40px;
+  margin-top:-40px;
+}

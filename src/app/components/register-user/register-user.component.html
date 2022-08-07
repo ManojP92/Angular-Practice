@@ -1,0 +1,19 @@
+<br><br><br>
+<div class="wrapper">
+  <div class="block">
+    <form [formGroup]="register">
+      <h2>REGISTER</h2>
+      <input type="text" placeholder="Enter Name" class="inp" formControlName="name"/>
+      <input type="text" placeholder="Enter Email" class="inp" formControlName="email">
+      <input type="number" placeholder="Enter your age" class="inp" formControlName="age">
+      <input type="number" placeholder="Enter your department number" class="inp" formControlName="deptno">
+      <input type="text" placeholder="Enter your job role" class="inp" formControlName="job">
+      <input type="password" placeholder="Enter a Password" class="inp" formControlName="password">
+      <div class="btns">
+        <button type="submit" (click)="registerSubmit(register.value)" [disabled]="register.invalid"> SIGN UP</button>
+        <button (click)="gotoLogin()">Go to LOGIN page</button>
+        <button type="submit" class="btn btn-primary" (click)="resetform()">Reset form</button>
+      </div>
+    </form>
+  </div>
+</div>
